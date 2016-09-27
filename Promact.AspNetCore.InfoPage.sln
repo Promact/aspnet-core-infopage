@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFF8794E-DF49-4176-9C01-C3888D2F187D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64A655A6-1914-42A8-A21E-53E6D96B7288}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Promact.AspNetCore.InfoPage.Web", "src\Promact.AspNetCore.InfoPage.Web\Promact.AspNetCore.InfoPage.Web.xproj", "{ABBA3D4D-D3DB-4EAE-89FC-F4C37C1C256A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABBA3D4D-D3DB-4EAE-89FC-F4C37C1C256A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBA3D4D-D3DB-4EAE-89FC-F4C37C1C256A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBA3D4D-D3DB-4EAE-89FC-F4C37C1C256A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBA3D4D-D3DB-4EAE-89FC-F4C37C1C256A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABBA3D4D-D3DB-4EAE-89FC-F4C37C1C256A} = {EFF8794E-DF49-4176-9C01-C3888D2F187D}
+	EndGlobalSection
+EndGlobal
